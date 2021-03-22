@@ -1,0 +1,18 @@
+Semantic HTML changes
+
+line 11 <div> to <header>
+line 13 <div> to <nav>
+line 27 <div> to <section> class remained un
+line 28 <div> to <main>
+line 29 <div> to <article>
+line 36 <div> to <article>
+line 43 <div> to <article>
+line 51 <div> to <aside>
+line 74 <div> to <footer>
+line 75 <h2> to <h4>
+
+CSS changes
+line 11 to 39 .header changed to header
+line 27 to 35 changed div to nav
+line 191 to 198 .footer changed to footer
+line 198 h2 changed to h4
