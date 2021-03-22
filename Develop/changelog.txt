@@ -18,4 +18,9 @@ line 191 to 198 .footer changed to footer
 line 198 h2 changed to h4
 line 164 to 186 changed classes to tag selectors and deleted redundant styles
 line 137 to 155 changed classes to tag selectors and deleted redundant styles
-line 89 to 131 changed classes to aside div tag selectors and deleted redundant styles
+line 89 to 131 changed classes to aside and aside div tag selectors and deleted redundant styles
+line 23 removed header h1 leaving .seo selector
+
+HTML Clean up
+line 29 change class to id="search-engine optimization" this allows the anchor to work
+added alt atributes to main content images
