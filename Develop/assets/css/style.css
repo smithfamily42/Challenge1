@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*Semantic HTML for header at top of page*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,11 +19,11 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*Changes the color of three letters in h1 at top of page*/
 .seo {
     color: #d9dcd6;
 }
-
+/*uses HTML semantic tags for header and nav*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*Large background image used for banner that takes up most of the page above the fold*/
 .hero {
     height: 800px;
     width: 100%;
@@ -68,13 +68,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*styles applied to the main content of he page within the main tag*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*This is the side bar "benefits" area*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -85,7 +85,7 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*redundant sytles were removed due to unnecessary usage of classes duplicating styles*/
 aside div {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,7 +101,7 @@ aside div img {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*HTML 5 semantic tag for independent content within a section*/
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,14 +119,14 @@ article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*HTML 5 semantic tag for content at the bottom of the page*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*heading tag reduced to show header size flowing down a page h1 at the top h2 in main content, h3 in side bar, and h4 in footer*/
 footer h4 {
     font-size: 20px;
 }
